@@ -1,0 +1,1 @@
+All programs, scripts aand file in this repo were made by Josh Tuks.
