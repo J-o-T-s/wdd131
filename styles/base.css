@@ -4,11 +4,6 @@
     margin: 0;
 }
 
-/* html, body{
-    margin: 0;
-    overflow: hidden;
-} */
-
 body{
     display: flex;
     flex-direction: column;
@@ -27,7 +22,7 @@ header{
     margin: 0 auto;
     border: 1px solid #c9c9c9;
     background-color: #565c7a;
-
+    color: #ffffff;
 }
 
 #course-title{
