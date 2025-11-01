@@ -21,7 +21,7 @@ header{
     width: 100%;
     margin: 0 auto;
     border: 1px solid #c9c9c9;
-    background-color: #aeb3d4;
+    background-color: #9397b3;
 }
 
 #course-title{
@@ -250,7 +250,7 @@ h5::after {
 footer{
     width: 100%;
     margin: 0 auto;
-    background-color: #aeb3d4;
+    background-color: #9397b3;
     color: #ffffff;
     border: 1px solid #ddd;
     font-family: "Alata", sans-serif;
