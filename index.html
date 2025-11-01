@@ -1,14 +1,88 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>My Web</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='base.css'>
-</head>
-<body>
-    
-    <script src='getdates.js'></script>
-</body>
+<html lang="en-US">
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>WDD 131 – Dynamic Web Fundamentals – Joshua Tuks</title>
+        <meta name='author' content='Joshua Tuks'>
+        <meta name='description' content='WDD 131 – Dynamic Web Fundamentals – Joshua Tuks | BYU Assignment (Home Page)'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <link rel='stylesheet' type='text/css' media='screen' href='styles/base.css'>
+    </head>
+    <body>
+        <header>
+            <span>WDD 131: Dynamic Web Fundamentals – <b>Jo Ts</b></span>
+            <nav>
+                <ul>
+                    <li><a href='https://www.linkedin.com/in/joshua-obodo-35a0a7341' target="_blank">LinkedIn</a></li>
+                    <li><a href='https://byu.instructure.com/' target="_blank">Canvas</a></li>
+                    <li><a href='https://www.churchofjesuschrist.org/study/scriptures/nt/matt/5?lang=eng' target="_blank">Scripture</a></li>
+                    <li><a href='#final-project.html' target="_blank">Final Project</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <h1>Jo Ts</h1>
+            <section class="card">
+                <h4>About Me</h4>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            My name is Joshua Obodo Otuka and I go by Joshua Tuks or simply Jo Ts.
+                            I live and was born in Lagos, Nigeria. I am currently working as an Indie game
+                            developer and also a part-time Math teacher. I love to spend time with my projects
+                            and my mom and siblings and sometimes, my students. I also love to play video games,
+                            mostly to learn from them as I develop games too.
+                        </p>
+
+                        <!-- place the Lagos heading and flag+text together inline -->
+                        <h5>Lagos, Nigeria</h5>
+
+                        <div class="flag-row">
+                            <figure class="flag-figure">
+                                <img src="images/nigeria-flag.png" alt="Flag of Nigeria" class="flag">
+                                <figcaption><em>Official Flag of Nigeria</em></figcaption>
+                            </figure>
+                            <div class="flag-text">
+                                <p>
+                                    Lagos is the largest city in Nigeria and one of the fastest-growing
+                                    cities in the world. It is a major financial center in Africa and is home to one of the largest and busiest ports on the continent.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- right: the personal picture (kept outside the text block so it sits to the right) -->
+                    <img src="images/dummy-image.png" alt="Joshua Obodo" class="profile-pic">
+                </div>
+                </section>
+
+
+            <section class="card">
+                <h4>Web Dev Resources</h4>
+                <ul>
+                    <li><a href="#">Dev.to Community</a></li>
+                    <li><a href="#">Smashing Magazine</a></li>
+                    <li><a href="#">CSS Tricks</a></li>
+                    <li><a href="#">W3 Schools</a></li>
+                    <li><a href="#">Udemy</a></li>
+                    <li><a href="#">Image Placeholder</a></li>
+                </ul>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; <span id="currentyear"></span> <b>Jo Ts</b> – Lagos, Nigeria</p>
+            <p id="lastModified"></p>
+        </footer>
+        <script src='scripts/getdates.js' defer></script>
+    </body>
 </html>
