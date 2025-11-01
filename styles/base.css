@@ -33,6 +33,7 @@ header{
     padding: 12px;
     text-align: center;
     color: #ffffff;
+    background-color: #53597a;
 }
 
 b{
@@ -251,7 +252,7 @@ h5::after {
 footer{
     width: 100%;
     margin: 0 auto;
-    background-color: #9397b3;
+    background-color: #53597a;
     color: #ffffff;
     border: 1px solid #ddd;
     font-family: "Alata", sans-serif;
@@ -267,5 +268,5 @@ footer p{
 
 #lastModified{
     font-size: 0.85rem;
-    color: #433581;
+    color: #d8d791;
 }
