@@ -21,8 +21,7 @@ header{
     width: 100%;
     margin: 0 auto;
     border: 1px solid #c9c9c9;
-    background-color: #565c7a;
-    color: #ffffff;
+    background-color: #aeb3d4;
 }
 
 #course-title{
@@ -38,7 +37,7 @@ header{
 
 b{
     font-weight: 900;
-    color: #abc3d6;
+    color: #000000;
 }
 
 nav{
@@ -98,14 +97,14 @@ section{
     border: 1px solid #c9c9c9;
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px #0000001a;
     padding: 1.5rem;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 10px #00000026;
 }
 
 .card h4 {
@@ -251,7 +250,7 @@ h5::after {
 footer{
     width: 100%;
     margin: 0 auto;
-    background-color: #454858;
+    background-color: #aeb3d4;
     color: #ffffff;
     border: 1px solid #ddd;
     font-family: "Alata", sans-serif;
@@ -267,5 +266,5 @@ footer p{
 
 #lastModified{
     font-size: 0.85rem;
-    color: #8a79d3;
+    color: #433581;
 }
