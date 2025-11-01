@@ -21,7 +21,7 @@ header{
     width: 100%;
     margin: 0 auto;
     border: 1px solid #c9c9c9;
-    background-color: #9397b3;
+    background-color: #6d74a1;
 }
 
 #course-title{
@@ -84,7 +84,8 @@ main h1 {
   grid-column: 1 / -1;
   text-align: center;
   font-size: 1.3rem;
-  color: #0b3d91;
+  font-weight: 900;
+  color: #000;
   cursor: default;
   margin: 0;
 }
