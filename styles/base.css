@@ -26,7 +26,8 @@ header{
     width: 100%;
     margin: 0 auto;
     border: 1px solid #c9c9c9;
-    background-color: #858cb1;
+    background-color: #565c7a;
+
 }
 
 #course-title{
@@ -48,6 +49,7 @@ b{
 nav{
     margin: 0 auto;
     background-color: #363b29;
+    color: #ffffff;
 }
 
 nav ul{
@@ -65,13 +67,13 @@ nav ul li a{
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    color: #ffffff;
+    color: #f2f2f2;
 }
 
 nav ul li a:hover{
     border: 1px;
     background-color: #8a79d3;
-    color: #000000;
+    color: #ffeb3b;
     transition: 0.3s;
 }
 
@@ -88,7 +90,7 @@ main h1 {
   grid-column: 1 / -1;
   text-align: center;
   font-size: 1.3rem;
-  color: #abc3d6;
+  color: #0b3d91;
   cursor: default;
   margin: 0;
 }
