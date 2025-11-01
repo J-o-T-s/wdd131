@@ -26,10 +26,10 @@ header{
     width: 100%;
     margin: 0 auto;
     border: 1px solid #c9c9c9;
-    background-color: #454858;
+    background-color: #858cb1;
 }
 
-header span{
+#course-title{
     display: block;
     font-family: "Alata", sans-serif;
     font-style: normal;
@@ -42,12 +42,12 @@ header span{
 
 b{
     font-weight: 900;
-    color: #8a79d3;
+    color: #abc3d6;
 }
 
 nav{
     margin: 0 auto;
-    background-color: #455850;
+    background-color: #363b29;
 }
 
 nav ul{
@@ -88,7 +88,7 @@ main h1 {
   grid-column: 1 / -1;
   text-align: center;
   font-size: 1.3rem;
-  color: #8a79d3;
+  color: #abc3d6;
   cursor: default;
   margin: 0;
 }
