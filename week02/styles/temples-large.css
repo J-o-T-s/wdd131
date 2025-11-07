@@ -1,0 +1,16 @@
+/* Larger Screens */
+#menuButton {
+  display: none;
+}
+
+#navMenu {
+  display: flex !important;
+  position: static;
+  flex-direction: row;
+  background: none;
+  gap: 1rem;
+}
+
+.temple-grid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
