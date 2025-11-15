@@ -1,0 +1,168 @@
+/* Google Font already loaded in HTML */
+:root {
+    --main-green: #046A38;
+    /* Nigeria green */
+    --accent-green: #059142;
+    --white: #ffffff;
+    --dark: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: var(--white);
+    overflow: hidden;
+    /* NO SCROLLING ON DESKTOP */
+}
+
+/* HEADER */
+header {
+    background: var(--main-green);
+    padding: 1.1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Alata", sans-serif;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 150px);
+    /* fits screen */
+}
+
+.hero picture,
+.hero picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* INFO BOXES */
+.info-box {
+    position: absolute;
+    width: 280px;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(3px);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.info-box ul {
+    list-style: none;
+    margin-top: 0.7rem;
+}
+
+.info-box li {
+    padding: 3px 0;
+    font-size: 0.9rem;
+}
+
+
+/* LEFT OFFSET GREEN BAR (DATA) */
+.green-left {
+    background: var(--accent-green);
+    color: var(--white);
+    font-weight: 600;
+    font-size: x-large;
+    padding: 1rem 1rem;
+    width: 70%;
+    transform: translateX(-30px);
+    border-radius: 6px;
+    opacity: 80%;
+}
+
+/* RIGHT OFFSET GREEN BAR (WEATHER) */
+.green-right {
+    background: var(--accent-green);
+    color: var(--white);
+    font-weight: 600;
+    font-size: x-large;
+    padding: 1rem 1rem;
+    width: 90%;
+    transform: translateX(-30px);
+    border-radius: 6px;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Box positions */
+.data-box {
+    top: 7%;
+    left: 3%;
+    opacity: 80%;
+}
+
+.weather-box {
+    bottom: 5%;
+    right: 3%;
+    opacity: 80%;
+}
+
+/* Weather Icon */
+.inline-weather {
+    width: 50px;
+    height: auto;
+}
+
+/* FOOTER */
+footer {
+    background: var(--main-green);
+    text-align: center;
+    padding: 1rem;
+    color: var(--white);
+    font-size: 0.9rem;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 700px) {
+    body {
+        overflow: auto;
+        /* allow scrolling on mobile */
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .info-box {
+        position: static;
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .green-left,
+    .green-right {
+        transform: none;
+        width: 100%;
+        text-align: center;
+        background: none;
+        color: var(--dark);
+        opacity: 100%;
+    }
+    
+    .green-right {
+        display: block;
+        text-align: center;
+    }
+
+    .inline-weather {
+        display: block;
+        margin: 0.5rem auto 0 auto;
+        width: 80px;
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nigeria</title>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alata&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="styles/place.css">
+
+        <!-- JS -->
+        <script src="scripts/place.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Nigeria</h1>
+        </header>
+
+        <main>
+            <section class="hero">
+                <picture>
+                    <source srcset="images/hero-large.webp" media="(min-width: 700px)">
+                    <img src="images/hero-small.webp" alt="Nigeria Landscape">
+                </picture>
+
+                <!-- Data Box -->
+                <article class="info-box data-box">
+                    <div class="box-title green-left">Data</div>
+                    <ul>
+                        <li><strong>Area:</strong> 923,768 sq km</li>
+                        <li><strong>Population:</strong> 213+ Million</li>
+                        <li><strong>Capital:</strong> Abuja</li>
+                        <li><strong>Languages:</strong> English, Pidgin-English, Hausa, Yoruba, Igbo</li>
+                        <li><strong>Currency:</strong> Nigerian Naira</li>
+                        <li><strong>Time Zone:</strong> UTC+1</li>
+                        <li><strong>Calling Code:</strong> +234</li>
+                        <li><strong>Internet TLD:</strong> .ng</li>
+                    </ul>
+                </article>
+
+                <!-- Weather Box -->
+                <article class="info-box weather-box">
+                    <div class="box-title green-right">
+                        <span>Weather</span>
+                        <img src="images/weather.svg" alt="Weather Icon" class="inline-weather">
+                    </div>
+                
+                    <ul>
+                        <li><strong>Temperature:</strong> <span id="temp">32</span> °C</li>
+                        <li><strong>Conditions:</strong> Sunny</li>
+                        <li><strong>Wind:</strong> <span id="wind">12</span> km/h</li>
+                        <li><strong>Wind Chill:</strong> <span id="windchill">N/A</span></li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Joshua Obodo <b>(Kuma Dev)</b> | Nigeria</p>
+            <p>Last Modified: <span id="lastmod"></span></p>
+        </footer>
+    </body>
+
+</html>
