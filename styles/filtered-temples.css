@@ -1,0 +1,106 @@
+/* Google Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f6f6f6;
+    color: #222;
+}
+
+/* Header */
+header {
+    background: #004d61;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: 'Arial', serif;
+    font-size: 1.4rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    /* or space-between */
+    align-items: center;
+    gap: 1rem;
+}
+
+#menuButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Navigation (hamburger closed by default) */
+#navMenu {
+    display: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #006b84;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+#navMenu a {
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+#navMenu a:hover {
+    text-decoration: underline;
+}
+
+#navMenu.open {
+    display: flex;
+}
+
+/* Main */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.temple-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background: #004d61;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
