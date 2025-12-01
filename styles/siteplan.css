@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f8ff;
+    color: #1b1f3b;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1b57d0;
+}
+
+.accent {
+    color: #ff6b35;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+pre {
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #d0d7e6;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+header img {
+    width: 120px;
+}
