@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreativeNestt Tutorials | Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">CreativeNestt</div>
+            <button class="menu-btn" id="menu-btn">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <h1>Contact Us</h1>
+
+        <form id="contactForm" class="contact-form">
+            <label>Name</label>
+            <input type="text" required>
+
+            <label>Email</label>
+            <input type="email" required>
+
+            <label>Your Message</label>
+            <textarea required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> CreativeNestt Tutorials</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+        <a href="references.html">References</a>
+    </footer>
+</body>
+
+</html>
